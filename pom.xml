@@ -178,4 +178,31 @@
   <build>
     <finalName>SpringMavenHello</finalName>
   </build>
+  
+  <repositories>
+  <repository>
+  <id>feedSpringMavenHello</id>
+  <url>https://pkgs.dev.azure.com/ahmadsaif05070755/SpringMavenHello/_packaging/feedSpringMavenHello/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+ </repository>
+</repositories> 
+
+<distributionManagement>
+  <repository>
+  <id>feedSpringMavenHello</id>
+  <url>https://pkgs.dev.azure.com/ahmadsaif05070755/SpringMavenHello/_packaging/feedSpringMavenHello/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+ </repository>
+</distributionManagement>
+
 </project>
